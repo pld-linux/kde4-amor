@@ -5,12 +5,11 @@
 
 Summary:	amor
 Summary(pl.UTF-8):	amor
-######		Unknown group!
 Name:		kde4-amor
 Version:	4.12.0
 Release:	1
 License:	GPL v2+
-Group:		X11/Application
+Group:		X11/Applications
 Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.xz
 # Source0-md5:	e44c5c0f1f956012c760782f814815e8
 URL:		http://www.kde.org/
@@ -21,7 +20,7 @@ BuildRequires:	kde4-kdelibs-devel >= %{version}
 BuildRequires:	qt4-build >= %{qtver}
 BuildRequires:	qt4-qmake >= %{qtver}
 BuildRequires:	rpmbuild(macros) >= 1.600
-Obsoletes:	kde4-ktoys-amor
+Obsoletes:	kde4-kdetoys-amor
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
