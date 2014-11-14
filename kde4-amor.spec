@@ -6,12 +6,12 @@
 Summary:	amor
 Summary(pl.UTF-8):	amor
 Name:		kde4-amor
-Version:	4.14.0
+Version:	4.14.3
 Release:	1
 License:	GPL v2+
 Group:		X11/Applications
 Source0:	http://download.kde.org/%{_state}/%{version}/src/%{orgname}-%{version}.tar.xz
-# Source0-md5:	1aee2fd8c215315405386486402525e6
+# Source0-md5:	d757ebfe7033c9f050b5a188ee33b790
 URL:		http://www.kde.org/
 BuildRequires:	automoc4 >= 0.9.84
 BuildRequires:	cmake >= 2.8.0
